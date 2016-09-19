@@ -24,6 +24,11 @@ function initializeAgarjs(window) {
 }(window);
 
 function startAgarjs(A_a,B_b,C_c) {
+  var cnt;
+  cnt++;
+  if(cnt==2){
+    console.error('Agarjs Already Started');
+  }else{
   console.warn('Agarjs Started');
-  
+  };
 };
